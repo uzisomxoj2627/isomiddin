@@ -1,0 +1,27 @@
+.text{
+	color: red;
+	background-color: blue;
+	font-size: 40px;
+	text-align: center;
+	font-family: Monotype Corsiva
+}
+body{
+	background: url(10.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}	
+#image{
+	width: 250px;
+	height: 250px;
+	background-image: url(16.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	position: sticky;
+	top: 10px;
+	display: inline-block;
+}
+#g{
+	/*text-shadow:2px 0px 5px red;*/
+	text-shadow: 0 0 3px red, 0 0 5px orange;
+	box-shadow: 10px 10px 5px red;
+}
